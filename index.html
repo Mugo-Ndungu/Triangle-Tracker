@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Triangle Tracker</title>
   <link rel="stylesheet" href="CSS/style.css">
-  <script type="text/javascript" src="JS/script.js"></script>
 </head>
 
 <body>
@@ -17,16 +16,16 @@
     <h2>MUGO NDUNG'U</h2>
   </div>
   <div class="inputs">
-    <input type="text" name="firstside" placeholder="First Length"><br>
-    <input type="text" name="secondside" placeholder="Second Length"><br>
-    <input type="text" name="thirdside" placeholder="Third Length">
+    <input type="text" id="firstside" placeholder="First Length" value=""><br>
+    <input type="text" id="secondside" placeholder="Second Length" value=""><br>
+    <input type="text" id="thirdside" placeholder="Third Length" value="">
   </div>
   <div class="buts">
-    <button class="check" type="button" name="button">Check Type</button>
+    <button onClick="results()" class="check" type="button" name="submit">Check Type</button>
   </div>
-  <div class="results">
-    <p></p>
-  </div>
+  <p id="para"></p>
 
+
+  <script type="text/javascript" src="JS/script.js"></script>
 </body>
 </html>
