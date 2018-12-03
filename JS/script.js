@@ -13,13 +13,13 @@ function results() {
     resul.innerHTML = "Thats an Equilateral Triangle. Cheers!";
   } else if (flength === slength || slength === tlength || tlength === flength) {
     resul.innerHTML = "Thats an Isosceles Triangle. Cheers!";
-  } else {
+  } else if (flength != slength && slength != tlength && tlength != flength){
     resul.innerHTML = "Thats a Scalene Triangle. Cheers!";
   }
 }
 
 function reset() {
-  location.reload();  
+  location.reload();
 }
 
 // function test(){
