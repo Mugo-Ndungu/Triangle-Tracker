@@ -28,7 +28,7 @@ input{
 .buts{
   margin: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .check:hover{
   background-color: #4CAF50;
