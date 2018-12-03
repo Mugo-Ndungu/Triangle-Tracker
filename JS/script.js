@@ -18,6 +18,10 @@ function results() {
   }
 }
 
+function reset() {
+  location.reload();  
+}
+
 // function test(){
 //   var flength = document.getElementById('firstside');
 //   alert(flength);
