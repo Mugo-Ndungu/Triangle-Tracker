@@ -18,6 +18,14 @@ function results() {
   }
 }
 
+  } else if (flength != slength && slength != tlength && tlength != flength){
+    resul.innerHTML = "Thats a Scalene Triangle. Cheers!";
+  }
+}
+
+function reset() {
+  location.reload();
+}
 
 // function test(){
 //   var flength = document.getElementById('firstside');
