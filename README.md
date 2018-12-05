@@ -34,7 +34,7 @@ During the production of the app we used the following Languages
 
 ## Support and Contact Details.
 
-for any collaboration you can reach me on email twinnymugo@gmail.com or Phone: 0789910017. Thank you!!.
+for any collaboration you can reach me on [email](twinnymugo@gmail.com) or Phone: 0789910017. Thank you!!.
 
 ### License.
 [MIT](License.txt) copyright 2018 @Mugo_Ndung'u  
