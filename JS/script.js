@@ -17,12 +17,6 @@ function results() {
     resul.innerHTML = "Thats not a Triangle. Cheers!";
   }
 }
-
-  } else if (flength != slength && slength != tlength && tlength != flength){
-    resul.innerHTML = "Thats a Scalene Triangle. Cheers!";
-  }
-}
-
 function reset() {
   location.reload();
 }
