@@ -8,13 +8,13 @@ function results() {
   var resul = document.querySelector("#para");
 
   if ((flength + slength <= tlength) || (slength + tlength <= flength) || (tlength + flength <= slength)) {
-    resul.innerHTML = "Thats a Scalene Triangle. Cheers!";
+    resul.innerHTML = "Thats not Triangle. Cheers!";
   } else if (flength === slength && slength === tlength) {
     resul.innerHTML = "Thats an Equilateral Triangle. Cheers!";
   } else if (flength === slength || slength === tlength || tlength === flength) {
     resul.innerHTML = "Thats an Isosceles Triangle. Cheers!";
-  } else {
-    resul.innerHTML = "Thats not a Triangle. Cheers!";
+  } else if (flength != slength && slength != tlength && tlength != flength) {
+    resul.innerHTML = "Thats a Scalene Triangle Cheers";
   }
 }
 function reset() {
